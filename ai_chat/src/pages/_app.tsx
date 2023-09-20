@@ -1,8 +1,8 @@
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { NextPage } from "next/types";
-import { ReactElement, ReactNode } from "react";
+import type { NextPage } from "next/types";
+import type { ReactElement, ReactNode } from "react";
 
 import { BotIcon } from "@/images/Bot";
 import { Chat } from "@/images/Chat";
